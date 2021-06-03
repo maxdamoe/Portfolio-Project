@@ -75,11 +75,26 @@ header nav ul li {
     float:center
 }
 
+
+main {
+    box-sizing:content-box;
+    padding: 5px;
+
+}
+
 main h3 {
     float:left;
+    font-size: 30px;
+    
 }
 
 main p {
-    float:center
+    float:right;
+}
+
+.down {
+    display:flex;
+    flex-direction:column;
+
 }
 
