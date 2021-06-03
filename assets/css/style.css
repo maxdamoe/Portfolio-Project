@@ -8,7 +8,6 @@ body {
 
 header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: 5px solid rebeccapurple;
     height: 2000px
 }
 
@@ -49,11 +48,38 @@ header nav ul li {
 
 /** Hero Styling **/
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
+   
     background-image: url("../images/max selfie.jpg");
+    height: 600px;
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.hero .hero-message {
+    font-size: 48px;
+    background-color: green;
+    color: red;
+    right: 30px;
+    border: 3px solid #73AD21;
+    width: 40%;
+    float:right;
+    position:absolute;
+    bottom:.0;
+    right:0;
+    
+
+}
+
+.hero .breh h2{
+    float:center
+}
+
+main h3 {
+    float:left;
+}
+
+main p {
+    float:center
 }
 
