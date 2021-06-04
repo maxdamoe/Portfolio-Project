@@ -68,6 +68,7 @@ header nav ul li {
     bottom:.0;
     right:0;
     
+    
 
 }
 
@@ -76,25 +77,26 @@ header nav ul li {
 }
 
 
-main {
-    box-sizing:content-box;
-    padding: 5px;
+.sideways {
+   display:inline-flex
 
 }
 
-main h3 {
-    float:left;
-    font-size: 30px;
+main .about {
+    
+    font-size: 60px;
+  
     
 }
 
-main p {
-    float:right;
-}
 
 .down {
     display:flex;
     flex-direction:column;
+    flex-basis:content;
 
 }
 
+.down p{
+    float:right
+}
