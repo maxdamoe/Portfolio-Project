@@ -67,36 +67,43 @@ header nav ul li {
     position:absolute;
     bottom:.0;
     right:0;
-    
-    
-
 }
 
 .hero .breh h2{
     float:center
 }
 
+main h3 {
+    font-size: 60px;
+}
+
+.flexdown {
+   display:flex;
+   flex-direction:column
+}
 
 .sideways {
-   display:inline-flex
-
-}
-
-main .about {
-    
-    font-size: 60px;
-  
-    
-}
-
-
-.down {
     display:flex;
-    flex-direction:column;
-    flex-basis:content;
-
+    flex-direction:row
 }
 
-.down p{
-    float:right
+#bigwork {
+    height:2000px;
+    
+}
+
+#work {
+    margin:5px;
+    margin-left:5px;
+    margin-right:5px;
+    position:relative;
+    left:200px;
+    width:60%;
+    height:1000px;
+    background-image: url("../images/eagle.jpg");
+}
+
+#surfreport {
+    position:relative;
+    top:500px;
 }
