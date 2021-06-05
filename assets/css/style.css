@@ -98,12 +98,47 @@ main h3 {
     margin-right:5px;
     position:relative;
     left:200px;
-    width:60%;
+    width:800px;
     height:1000px;
     background-image: url("../images/eagle.jpg");
 }
 
 #surfreport {
     position:relative;
-    top:500px;
+    top:700px;
+    background-color:red;
+    width:20%;
+    left:20px;
+}
+
+#ledwall {
+    position:relative;
+    top:1000px;
+    width:400px;
+    background-color:salmon;
+    height:400px;
+}
+
+#calculator {
+    position:relative;
+    top:586px;
+    width:400px;
+    left:400px;
+    background-color:seashell;
+    height:400px;
+}
+
+#pastelpuzzle {
+    position:relative;
+    top:600px;
+    background-color:yellow;
+    width:400px;
+}
+
+#runbuddy {
+    position:relative;
+    top:565px;
+    background-color:orange;
+    left:400px;
+    width:400px;
 }
