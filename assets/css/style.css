@@ -73,7 +73,7 @@ header nav ul li {
     float:center
 }
 
-main h3 {
+.sideways h3 {
     font-size: 60px;
 }
 
@@ -83,8 +83,9 @@ main h3 {
 }
 
 .sideways {
-    display:flex;
-    flex-direction:row
+    display:inline-flex;
+    flex-direction:row;
+    
 }
 
 #bigwork {
@@ -121,10 +122,10 @@ main h3 {
 
 #calculator {
     position:relative;
-    top:586px;
+    top:580px;
     width:400px;
     left:400px;
-    background-color:seashell;
+    background-image: url("../images/calculator.jpeg");
     height:400px;
 }
 
@@ -133,12 +134,23 @@ main h3 {
     top:600px;
     background-color:yellow;
     width:400px;
+    height:400px;
 }
 
 #runbuddy {
     position:relative;
-    top:565px;
+    top:175px;
     background-color:orange;
     left:400px;
     width:400px;
+    height:400px;
+}
+
+.bottomleft {
+    position:relative;
+    background-color:brown;
+    width:100px;
+    top:300px;
+    height:100px;
+    
 }
