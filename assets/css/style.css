@@ -15,7 +15,7 @@ header h1 {
     display: inline-block;
     font-size: 48px;
     background-color:orange;
-    width: 1000px;
+    width: 400px;
     border: 5px solid red;
     padding: 20px;
     margin: 20px;
@@ -94,6 +94,7 @@ header nav ul li {
     position:relative;
     Left:10%;
     top:50px;
+    width:800px;
 }
 
 #bigwork {
@@ -109,7 +110,8 @@ header nav ul li {
     left:200px;
     width:800px;
     height:1000px;
-    background-image: url("../images/surfboard.jpg");
+    background-image: url("../images/surfboard.jpg"); 
+    top:100px;
 }
 
 
@@ -166,9 +168,14 @@ header nav ul li {
     
 }
 
+#Contact-Me h3 {
+    top:100px;
+}
+
 #Contact-Me ul li {
     position:relative;
     Left:20%;
     top:100px;
     display:inline-block;
+    
 }
