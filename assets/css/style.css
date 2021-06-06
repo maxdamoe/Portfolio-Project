@@ -39,7 +39,7 @@ header nav {
 
 header nav ul {
     list-style-type: none;
-    ;
+    
 }
 
 header nav ul li {
@@ -52,7 +52,7 @@ header nav ul li {
 /** Hero Styling **/
 .hero {
    
-    background-image: url("../images/max selfie.jpg");
+    background-image: url("../images/Maxx Selfie.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -90,11 +90,17 @@ header nav ul li {
     
 }
 
+
+
+
 #About-Me p {
     position:relative;
     Left:10%;
     top:50px;
     width:800px;
+    @media screen and (max-width:480px) {
+        font-size:30px;
+}
 }
 
 #bigwork {
@@ -169,13 +175,14 @@ header nav ul li {
 }
 
 #Contact-Me h3 {
-    top:100px;
+    top:200px;
 }
 
 #Contact-Me ul li {
+    list-style-type: none;
+    padding:10px;
+    display:inline-block;
     position:relative;
     Left:20%;
     top:100px;
-    display:inline-block;
-    
 }
