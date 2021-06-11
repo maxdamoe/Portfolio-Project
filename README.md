@@ -4,4 +4,4 @@ DescriptioN: This is my portfolio project. It is not really completed, and lacks
 
 ![image](./assets/images/screencap.png)
 
-[Link to deployed app](https://maxdamoe.github.io/Portfolio-Project/)
+[Link to deployed app](https://maxdamoe.github.io/Password-Project/index.html)
